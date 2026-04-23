@@ -1,50 +1,53 @@
 # 🚗 Vehicle Service Center Management System
 
-A modern full-stack web application designed to streamline operations in vehicle service centers. This system improves efficiency in inventory management, service tracking, billing, and customer handling through a centralized digital platform.
+A full-stack web application designed to digitize and streamline operations of a vehicle service center.  
+This system improves efficiency in service management, inventory tracking, billing, and customer handling.
 
 ---
 
-## 📌 Overview
+## 📌 Project Overview
 
-The Vehicle Service Center Management System replaces manual record-keeping with an automated, reliable, and scalable solution. It enables service centers to manage vehicles, customers, spare parts, and service workflows efficiently.
+Vehicle service centers often rely on manual or outdated systems, leading to:
+- Incorrect inventory tracking  
+- Service delays  
+- Poor record management  
+
+This system solves these issues by automating service workflows, tracking spare parts usage, and providing real-time service updates.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-### 🔧 Service & Operations
-- **Job Card Management**  
-  Create and manage service job cards with tasks, mechanics, and notes  
-
-- **Service Status Pipeline**  
-  Track vehicle progress: Received → Diagnosing → Repairing → Ready  
-
-- **Service Booking System**  
-  Schedule appointments and avoid overlapping bookings  
+### 🔧 Service Management
+- Job card creation for each vehicle  
+- Track service stages (Received → Diagnosing → Repairing → Ready)  
+- Assign tasks and maintain mechanic notes  
 
 ---
 
 ### 📦 Inventory Management
-- **Automatic Inventory Deduction**  
-  Updates stock when spare parts are used  
-
-- **Low Stock Alerts**  
-  Notifications when inventory is low  
+- Automatic spare part deduction during service  
+- Low stock alerts for inventory control  
 
 ---
 
 ### 🚘 Vehicle & Customer Management
-- **Vehicle Profiles**  
-  Store vehicle details and owner information  
-
-- **Service History Tracking**  
-  Maintain complete service records  
+- Store vehicle details and owner information  
+- Maintain complete service history  
 
 ---
 
-### 💰 Billing & Invoicing
-- **Invoice Generation**  
-  Auto-generate detailed invoices with parts and labor  
+### 📅 Booking System
+- Schedule service appointments  
+- Prevent overlapping bookings  
+- Manage daily workload efficiently  
+
+---
+
+### 💰 Billing System
+- Auto-generate invoices  
+- Itemized billing (parts + labor)  
+- Transparent cost calculation  
 
 ---
 
@@ -58,37 +61,41 @@ The Vehicle Service Center Management System replaces manual record-keeping with
 ### Backend
 - Java  
 - Spring Boot  
-- REST APIs  
+- REST API  
 
 ### Database
-- MySQL / PostgreSQL  
+- MySQL  
 
 ### Tools
 - Git & GitHub  
-- IntelliJ IDEA / VS Code  
+- IntelliJ IDEA  
+- VS Code  
 - Postman  
 
 ---
 
 ## ⚙️ System Architecture
 
-Frontend (React) → Backend (Spring Boot APIs) → Database (Relational DB)
+Client-Server Architecture:
+
+Frontend (React) → Backend (Spring Boot) → Database (MySQL)
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js & npm  
+- Node.js  
 - Java JDK 17+  
-- MySQL / PostgreSQL  
+- MySQL  
+- Maven  
 - Git  
 
 ---
 
 ### Installation
 
-#### Clone the repository
+#### 1. Clone Repository
 ```bash
-git clone https://github.com/nisuln/Vehicle-Service/vehicle-service-system.git
-cd vehicle-service-system
+git clone https://github.com/nisuln/Vehicle-Service.git
+cd Vehicle-Service
