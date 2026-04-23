@@ -90,5 +90,5 @@ Frontend (React) → Backend (Spring Boot APIs) → Database (Relational DB)
 
 #### Clone the repository
 ```bash
-git clone https://github.com/your-username/vehicle-service-system.git
+git clone https://github.com/nisuln/Vehicle-Service/vehicle-service-system.git
 cd vehicle-service-system
